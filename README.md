@@ -97,7 +97,7 @@ python merge_csv.py --config ALLSHOPS
 | Переменная | Описание | Пример / По умолчанию |
 | :--- | :--- | :--- |
 | `FTP_ENABLED` | Включение/отключение выгрузки (`1`, `true`, `yes`, `on`) | `True` |
-| `FTP_HOST` | Адрес FTP-сервера | `://example.com` |
+| `FTP_HOST` | Адрес FTP-сервера | `ftp.example.com` |
 | `FTP_PORT` | Порт FTP-сервера | `21` |
 | `FTP_USER` | Имя пользователя FTP | `ftp_user` |
 | `FTP_PASS` | Пароль FTP | `ftp_password` |
