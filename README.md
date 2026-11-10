@@ -29,7 +29,7 @@
 ├── send_message.py       # Отправка уведомлений в Telegram через aiohttp (с поддержкой SOCKS/HTTP proxy)
 ├── logger.py             # Настройка ротируемого файлового и цветного консольного логирования
 ├── execution_time.py     # Декоратор для замера времени выполнения синхронных и асинхронных функций
-├── venv_manager.py       # Утилита для развертывания .venv и запуска проекта
+├── run.py                # Точка входа: развертывание .venv, установка зависимостей и запуск проекта
 ├── requirements.txt      # Зависимости проекта
 ├── .env                  # Базовый файл конфигурации
 └── env/                  # Директория с overlay-конфигурациями (например, .env.ALLSHOPS)
@@ -44,13 +44,13 @@
 
 ```bash
 # Запуск для всех конфигураций из папки env/
-python venv_manager.py
+python run.py
 
 # Запуск для конкретных конфигураций (например, .env.shop1 и .env.shop2)
-python venv_manager.py --config shop1 shop2
+python run.py --config shop1 shop2
 
 # Запуск без добавления имени пользователя к папке .venv
-python venv_manager.py --no-individual
+python run.py --no-individual
 ```
 
 ### 2. Ручной запуск
@@ -142,4 +142,3 @@ python merge_csv.py --config ALLSHOPS
 ## Автор и лицензия
 
 * **Автор:** InfSub ([LegioNTeaM])
-* **Контакты:** [Telegram](https://t.me/InfSub) | ADmin@TkYD.ru
