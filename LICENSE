@@ -24,12 +24,20 @@ limitations under the License.
 
 This project uses the following third-party libraries:
 
-- pandas (BSD 3-Clause License)
-- numpy (BSD 3-Clause License)
 - aiofiles (Apache License 2.0)
+- aioftp (Apache License 2.0)
 - aiohttp (Apache License 2.0)
-- python-dotenv (BSD 3-Clause License)
+- aiohttp_socks (Apache License 2.0)
+- aiosignal (Apache License 2.0)
+- colorama (BSD 3-Clause License)
 - colorlog (MIT License)
+- emoji (BSD 3-Clause License)
+- numpy (BSD 3-Clause License)
+- pandas (BSD 3-Clause License)
+- python-dateutil (Apache License 2.0 / BSD 3-Clause License)
+- python-dotenv (BSD 3-Clause License)
+- pytz (MIT License)
+- six (MIT License)
 
 All trademarks and copyrights are property of their respective owners.
 Each library is distributed under its own license. Copies of these licenses are available in the respective library repositories and/or PyPI pages.
